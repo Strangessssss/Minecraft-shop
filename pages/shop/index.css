@@ -1,0 +1,203 @@
+@font-face {
+    font-family: "Minecraft";
+    src:  url("../../minecraft_plugins/minecraft-rus.ttf") format("opentype");
+}
+
+html *{
+    font-family: "Minecraft", cursive;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../images/minecraft-background-2.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.category.pixel-corners{
+    top: -5rem;
+    position: absolute;
+    width: 6rem;
+    height: 5.5rem;
+    margin-top: 4rem;
+    border-color: black;
+    border-width: 5px;
+    background-color: black;
+}
+
+.tab.pixel-corners{
+    left: 0;
+    background-color: #bebebe;
+    height: 100%;
+    border-left-color: #f4f4f4;
+    border-top-color: #f4f4f4;
+    border-right-color: #535353;
+    border-bottom-color: #535353;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.category.pixel-corners:nth-of-type(1) .tab.pixel-corners {
+    background-image: url("../../images/items/apple.png");
+    background-position-y: 1px;
+    background-size: 4rem;
+}
+
+.category.pixel-corners:nth-of-type(2) .tab.pixel-corners {
+    background-image: url("../../images/items/tools.png");
+    background-position-y: 0.4rem;
+    background-size: 3.5rem;
+}
+
+.category.pixel-corners:nth-of-type(3) .tab.pixel-corners {
+    background-image: url("../../images/items/armor.png");
+    background-position-y: 0.2rem;
+    background-size: 4rem;
+}
+
+.category.pixel-corners:nth-of-type(4) .tab.pixel-corners {
+    background-image: url("../../images/items/weapons.png");
+    background-position-y: 0.2rem;
+    background-size: 4rem;
+}
+
+.category.pixel-corners:nth-of-type(5) .tab.pixel-corners {
+    background-image: url("../../images/items/bookshelf.webp");
+    background-position-y: 0.2rem;
+    background-size: 4rem;
+}
+
+.category.pixel-corners:nth-of-type(6) .tab.pixel-corners {
+    background-image: url("../../images/items/Compass_.webp");
+    background-position-y: 0.2rem;
+    background-size: 4rem;
+}
+
+
+div .category:nth-child(1){
+    left: 5rem;
+}
+
+div .category:nth-child(2){
+    left: 13rem;
+}
+
+div .category:nth-child(3){
+    left: 21rem;
+}
+
+div .category:nth-child(4){
+    left: 29rem;
+}
+
+div .category:nth-child(5){
+    right: 13rem;
+}
+
+div .category:nth-child(6){
+    right: 2rem;
+}
+
+#shop-altogether{
+    width: 80rem;
+    height: 40rem;
+    position: relative;
+}
+
+#shop-outer{
+    width: 100%;
+    height: 100%;
+    margin-top: 4rem;
+    border-color: black;
+    border-width: 11px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#shop{
+    background-color: #bebebe;
+    width: 100%;
+    height: 100%;
+    border-left-color: #f4f4f4;
+    border-top-color: #f4f4f4;
+    border-right-color: #535353;
+    border-bottom-color: #535353;
+}
+
+#search-area{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+}
+
+#search-area > div{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+    text-align: center;
+}
+
+#search-area > label > input{
+    width: 16rem;
+    height: 2rem;
+    border-width: 3px;
+    background-color: #808081;
+    border-top-color: #535353;
+    border-left-color: #535353;
+    border-right-color: #f4f4f4;
+    border-bottom-color: #f4f4f4;
+    font-size: 100%;
+    color: white;
+    letter-spacing: 2px;
+    margin-right: 10rem;
+}
+
+#search-area > label > input:focus {
+    outline-width: 0;
+}
+
+#shelf{
+    padding: 2rem 7rem;
+    display: flex;
+    gap: 8px;
+    grid-template-columns: auto auto auto;
+    flex-flow: row wrap;
+}
+
+#shelf div{
+    background-color: transparent;
+    width: 9rem;
+    height: 9rem;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: #484949;
+    border-top-color: #484949;
+    border-right-color: #f4f4f4;
+    border-bottom-color: #f4f4f4;
+}
+
+#slider{
+    position: absolute;
+    right: 2rem;
+    rotate: 90deg;
+    height: 100px;
+}
+
+#slider > div{
+
+    width: 1000px;
+}
