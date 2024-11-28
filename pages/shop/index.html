@@ -6,27 +6,34 @@
     <link rel="stylesheet" href="index.css">
     <script src="../../jquery-3.7.1.min.js"></script>
     <link rel="stylesheet" href="../../minecraft_plugins/rounded-corners.css">
+    <link rel="stylesheet" href="../../minecraft_plugins/minecraft-menu-button.css">
 </head>
 <body>
     <div id="shop-altogether">
-      <div class="category pixel-corners">
-        <div class="tab pixel-corners"></div>
-      </div>
-      <div class="category pixel-corners">
-        <div class="tab pixel-corners"></div>
-      </div>
-      <div class="category pixel-corners">
-        <div class="tab pixel-corners"></div>
-      </div>
-      <div class="category pixel-corners">
-        <div class="tab pixel-corners"></div>
-      </div>
-      <div class="category pixel-corners">
-        <div class="tab pixel-corners"></div>
-      </div>
-      <div class="category pixel-corners">
-          <div class="tab pixel-corners"></div>
-      </div>
+          <div id="categories">
+              <div>
+                  <div class="category pixel-corners">
+                      <div class="tab pixel-corners"></div>
+                  </div>
+                  <div class="category pixel-corners">
+                      <div class="tab pixel-corners"></div>
+                  </div>
+                  <div class="category pixel-corners">
+                      <div class="tab pixel-corners"></div>
+                  </div>
+                  <div class="category pixel-corners">
+                      <div class="tab pixel-corners"></div>
+                  </div>
+              </div>
+              <div>
+                  <div class="category pixel-corners">
+                      <div class="tab pixel-corners"></div>
+                  </div>
+                  <div class="category pixel-corners">
+                      <div class="tab pixel-corners"></div>
+                  </div>
+              </div>
+          </div>
       <div id="shop-outer" class="pixel-corners">
         <div id="shop" class="pixel-corners">
             <div id="search-area">
@@ -38,20 +45,12 @@
                 </label>
             </div>
             <div id="shelf">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div id="pagination-container">
+                    <button id="previous" class="minecraft-btn"><</button>
+                    <button id="next" class="minecraft-btn">></button>
+                </div>
             </div>
         </div>
-          <label id="slider"><input type="range" max="100"></label>
       </div>
     </div>
 

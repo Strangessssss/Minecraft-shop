@@ -1,6 +1,10 @@
 @font-face {
     font-family: "Minecraft";
-    src: url("../../minecraft_plugins/Minecraft.ttf") format("opentype");
+    src:  url("../../minecraft_plugins/minecraft-rus.ttf") format("opentype");
+}
+
+html *{
+    font-family: "Minecraft", cursive;
 }
 
 body{

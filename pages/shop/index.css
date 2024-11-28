@@ -19,9 +19,43 @@ body{
     overflow: hidden;
 }
 
+
+.category.pixel-corners.active {
+    z-index: 99;
+    border-bottom-color: transparent;
+}
+
+.tab.pixel-corners.active {
+    background-color: #bebebe;
+    border-width: 4px;
+    height: 140%;
+;
+}
+
+#categories{
+    position: absolute;
+    width: 100%;
+    display: flex;
+}
+
+#categories > div:first-child{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    gap: 2.5rem;
+    flex: 1;
+}
+
+#categories > div:last-child{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
 .category.pixel-corners{
     top: -5rem;
-    position: absolute;
     width: 6rem;
     height: 5.5rem;
     margin-top: 4rem;
@@ -31,86 +65,62 @@ body{
 }
 
 .tab.pixel-corners{
-    left: 0;
     background-color: #bebebe;
-    height: 100%;
+    height: 92%;
     border-left-color: #f4f4f4;
     border-top-color: #f4f4f4;
     border-right-color: #535353;
-    border-bottom-color: #535353;
+    border-bottom-color: black;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 
-.category.pixel-corners:nth-of-type(1) .tab.pixel-corners {
+#categories > div:first-child .category.pixel-corners:first-child > div  {
     background-image: url("../../images/items/apple.png");
     background-position-y: 1px;
     background-size: 4rem;
 }
 
-.category.pixel-corners:nth-of-type(2) .tab.pixel-corners {
+#categories > div:first-child .category.pixel-corners:nth-child(2) > div  {
     background-image: url("../../images/items/tools.png");
     background-position-y: 0.4rem;
     background-size: 3.5rem;
 }
 
-.category.pixel-corners:nth-of-type(3) .tab.pixel-corners {
+#categories > div:first-child .category.pixel-corners:nth-child(3) > div  {
     background-image: url("../../images/items/armor.png");
     background-position-y: 0.2rem;
     background-size: 4rem;
 }
 
-.category.pixel-corners:nth-of-type(4) .tab.pixel-corners {
+#categories > div:first-child .category.pixel-corners:nth-child(4) > div  {
     background-image: url("../../images/items/weapons.png");
     background-position-y: 0.2rem;
     background-size: 4rem;
 }
 
-.category.pixel-corners:nth-of-type(5) .tab.pixel-corners {
+#categories > div:last-child .category.pixel-corners:first-child > div  {
     background-image: url("../../images/items/bookshelf.webp");
     background-position-y: 0.2rem;
     background-size: 4rem;
 }
 
-.category.pixel-corners:nth-of-type(6) .tab.pixel-corners {
+#categories > div:last-child .category.pixel-corners:last-child > div {
     background-image: url("../../images/items/Compass_.webp");
     background-position-y: 0.2rem;
     background-size: 4rem;
 }
 
-
-div .category:nth-child(1){
-    left: 5rem;
-}
-
-div .category:nth-child(2){
-    left: 13rem;
-}
-
-div .category:nth-child(3){
-    left: 21rem;
-}
-
-div .category:nth-child(4){
-    left: 29rem;
-}
-
-div .category:nth-child(5){
-    right: 13rem;
-}
-
-div .category:nth-child(6){
-    right: 2rem;
-}
-
 #shop-altogether{
-    width: 80rem;
+    width: 80%;
     height: 40rem;
     position: relative;
 }
 
 #shop-outer{
+    z-index: 1;
+    position: relative;
     width: 100%;
     height: 100%;
     margin-top: 4rem;
@@ -163,7 +173,7 @@ div .category:nth-child(6){
     font-size: 100%;
     color: white;
     letter-spacing: 2px;
-    margin-right: 10rem;
+    margin-right: 8.5rem;
 }
 
 #search-area > label > input:focus {
@@ -171,14 +181,18 @@ div .category:nth-child(6){
 }
 
 #shelf{
-    padding: 2rem 7rem;
+    justify-self: center;
     display: flex;
     gap: 8px;
-    grid-template-columns: auto auto auto;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
 }
 
-#shelf div{
+
+.cell{
     background-color: transparent;
     width: 9rem;
     height: 9rem;
@@ -190,14 +204,54 @@ div .category:nth-child(6){
     border-bottom-color: #f4f4f4;
 }
 
-#slider{
-    position: absolute;
-    right: 2rem;
-    rotate: 90deg;
-    height: 100px;
+#pagination-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 5rem;
 }
 
-#slider > div{
+#pagination-container > button{
+    width: 3rem;
+    height: 3rem;
+}
 
-    width: 1000px;
+
+@media screen and (max-width: 768px) {
+    .cell{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    #shop-altogether{
+        width: 90%;
+        margin-left: 2rem;
+    }
+
+    body{
+        justify-content: left;
+    }
+
+
+    #categories > div:first-child{
+        width: 70%;
+        justify-content: space-around;
+        gap: 0;
+    }
+
+    #categories > div:last-child{
+        justify-content: space-around;
+        width: 30%;
+    }
+
+
+    #search-area > label > input{
+        margin-right: 2rem;
+    }
+
+
+
+
 }
