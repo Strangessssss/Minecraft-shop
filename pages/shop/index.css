@@ -238,6 +238,7 @@ body{
     .cell{
         width: 80px;
         height: 80px;
+        background-color: yellow;
     }
 
     #shop-altogether{
