@@ -29,7 +29,17 @@ body{
     background-color: #bebebe;
     border-width: 4px;
     height: 140%;
-;
+}
+
+#pagination-container > div{
+    font-family: "Minecraft", cursive;
+    color: white;
+    background-color: #6a6a6a;
+    width: 6%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 #categories{
@@ -142,6 +152,9 @@ body{
     border-top-color: #f4f4f4;
     border-right-color: #535353;
     border-bottom-color: #535353;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #search-area{
@@ -181,21 +194,22 @@ body{
 }
 
 #shelf{
-    justify-self: center;
     display: flex;
-    gap: 8px;
     flex-flow: row wrap;
-    align-items: center;
     justify-content: center;
     height: 80%;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
     width: 80%;
+    gap: 0;
+    padding:0;
 }
 
 
 .cell{
     background-color: transparent;
-    width: 9rem;
-    height: 9rem;
+    width: 150px;
+    height: 150px;
     border-width: 5px;
     border-style: solid;
     border-left-color: #484949;
@@ -209,7 +223,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
     gap: 5rem;
 }
 
@@ -220,18 +234,19 @@ body{
 
 
 @media screen and (max-width: 768px) {
+
     .cell{
-        width: 5rem;
-        height: 5rem;
+        width: 80px;
+        height: 80px;
     }
 
     #shop-altogether{
-        width: 90%;
-        margin-left: 2rem;
+        width: 75%;
+        margin-right: 2rem;
     }
 
     body{
-        justify-content: left;
+        justify-content: right;
     }
 
 
@@ -242,16 +257,33 @@ body{
     }
 
     #categories > div:last-child{
-        justify-content: space-around;
-        width: 30%;
+        position: absolute;
+        flex-direction: column;
+        top: 13rem;
+        left: -5.5rem;
     }
 
 
     #search-area > label > input{
-        margin-right: 2rem;
+        margin-right: 1rem;
+        width: 80%;
     }
 
+    #search-area > div{
+        font-size: 1.5rem;
+        text-wrap: nowrap;
+    }
 
+    #extended-buttons .category.pixel-corners.active {
+        z-index: 99;
+        border-right-color: transparent;
+    }
 
+    #extended-buttons .tab.pixel-corners.active {
+        background-color: #bebebe;
+        border-width: 4px;
+        height: 95%;
+        width: 105%;
+    }
 
 }
