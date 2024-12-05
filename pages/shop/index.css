@@ -14,11 +14,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../../images/minecraft-background-2.jpg");
-    background-size: cover;
+    background-image: url("../../images/dirt.jpeg");
+    background-size: 10rem;
     overflow: hidden;
 }
 
+#login{
+    position: absolute;
+    top: 0;
+    right: 2rem;
+}
+
+#login > div{
+    background-image: url("../../images/user.png");
+    background-position-y: -2px;
+    background-size: 5rem;
+}
 
 .category.pixel-corners.active {
     z-index: 99;
@@ -238,7 +249,6 @@ body{
     .cell{
         width: 80px;
         height: 80px;
-        background-color: yellow;
     }
 
     #shop-altogether{

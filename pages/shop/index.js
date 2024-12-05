@@ -3,11 +3,11 @@ const sizeOfShelfElemMobile = 90;
 let shelf = $("#shelf");
 
 $(function () {
-
     fillShelf(shelf.width(), shelf.height());
 });
 
 let tabs = $(".tab.pixel-corners");
+let login = $("#login .tab.pixel-corners");
 
 tabs.on("mouseover", function () {
     if ($(this).parent(".category.pixel-corners").hasClass("active")){
@@ -20,18 +20,26 @@ tabs.on("mouseout", function () {
     $(this).css("background-color", "#bebebe");
 });
 
-tabs.on("mousedown", function () {
+tabs.not("#login .tab.pixel-corners").on("mousedown", function () {
     if ($(this).parent(".category.pixel-corners").hasClass("active")){
         return;
     }
     $(this).addClass("active");
 });
 
-tabs.on("mouseup", function () {
+tabs.not("#login .tab.pixel-corners").on("mouseup", function () {
     tabs.removeClass("active");
     tabs.parent().removeClass("active");
     $(this).addClass("active");
     $(this).parent().addClass("active");
+});
+
+login.on("mousedown", function () {
+    $(this).addClass("active");
+});
+
+login.on("mouseup", function () {
+    $(this).removeClass("active");
 });
 
 $(window).on("resize", function () {

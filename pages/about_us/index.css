@@ -17,7 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     background-size: 100px;
-    background-image: url("../../images/dirt-block.jpeg");
+    background-image: url("../../images/dirt.jpeg");
     overflow: hidden;
 }
 
