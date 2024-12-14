@@ -1,0 +1,171 @@
+[
+  {
+    "name": "Leather Boots",
+    "description": "Basic boots made of leather, offering minimal protection.",
+    "buy_price": 5,
+    "sell_price": 2,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/25/Leather_Boots_JE3_BE2.png"
+  },
+  {
+    "name": "Chainmail Boots",
+    "description": "Boots made of chainmail, offering moderate protection.",
+    "buy_price": 10,
+    "sell_price": 5,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/47/Chainmail_Boots_JE2_BE2.png"
+  },
+  {
+    "name": "Iron Boots",
+    "description": "Durable boots made of iron, providing good protection.",
+    "buy_price": 25,
+    "sell_price": 15,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/42/Iron_Boots_JE2_BE2.png"
+  },
+  {
+    "name": "Diamond Boots",
+    "description": "Strong boots made of diamond, offering excellent protection.",
+    "buy_price": 50,
+    "sell_price": 30,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/82/Diamond_Boots_JE2_BE2.png"
+  },
+  {
+    "name": "Golden Boots",
+    "description": "Boots made of gold, fast but fragile.",
+    "buy_price": 20,
+    "sell_price": 8,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7c/Golden_Boots_JE2_BE2.png"
+  },
+  {
+    "name": "Netherite Boots",
+    "description": "The strongest boots, made of netherite, providing high durability.",
+    "buy_price": 75,
+    "sell_price": 50,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/60/Netherite_Boots_JE2_BE1.png"
+  },
+  {
+    "name": "Enchanted Leather Boots",
+    "description": "Magical leather boots with enhanced properties.",
+    "buy_price": 8,
+    "sell_price": 3,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b4/Enchanted_Leather_Boots_%28item%29.gif"
+  },
+  {
+    "name": "Enchanted Chainmail Boots",
+    "description": "Magical chainmail boots with enhanced properties.",
+    "buy_price": 15,
+    "sell_price": 8,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/01/Enchanted_Chainmail_Boots_%28item%29.gif"
+  },
+  {
+    "name": "Enchanted Iron Boots",
+    "description": "Magical iron boots with enhanced properties.",
+    "buy_price": 40,
+    "sell_price": 25,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6e/Enchanted_Iron_Boots_%28item%29.gif"
+  },
+  {
+    "name": "Enchanted Diamond Boots",
+    "description": "Magical diamond boots with enhanced properties.",
+    "buy_price": 80,
+    "sell_price": 50,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c1/Enchanted_Diamond_Boots_%28item%29.gif"
+  },
+  {
+    "name": "Enchanted Golden Boots",
+    "description": "Magical golden boots with enhanced properties.",
+    "buy_price": 30,
+    "sell_price": 15,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/41/Enchanted_Golden_Boots_%28item%29.gif"
+  },
+  {
+    "name": "Enchanted Netherite Boots",
+    "description": "Magical netherite boots with enhanced properties.",
+    "buy_price": 100,
+    "sell_price": 70,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/23/Enchanted_Netherite_Boots_%28item%29.gif"
+  },
+  {
+    "name": "Leather Pants",
+    "description": "Basic leather pants, offering minimal protection.",
+    "buy_price": 7,
+    "sell_price": 4,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/06/Leather_Pants_JE4_BE2.png"
+  },
+  {
+    "name": "Chainmail Leggings",
+    "description": "Leggings made of chainmail, offering moderate protection.",
+    "buy_price": 15,
+    "sell_price": 8,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/00/Chainmail_Leggings_JE2_BE2.png"
+  },
+  {
+    "name": "Iron Leggings",
+    "description": "Durable leggings made of iron, providing good protection.",
+    "buy_price": 35,
+    "sell_price": 20,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/42/Iron_Leggings_JE2_BE2.png"
+  },
+  {
+    "name": "Diamond Leggings",
+    "description": "Strong leggings made of diamond, offering excellent protection.",
+    "buy_price": 70,
+    "sell_price": 40,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fc/Diamond_Leggings_JE2_BE2.png"
+  },
+  {
+    "name": "Golden Leggings",
+    "description": "Leggings made of gold, fast but fragile.",
+    "buy_price": 30,
+    "sell_price": 12,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/bf/Golden_Leggings_JE2_BE2.png"
+  },
+  {
+    "name": "Netherite Leggings",
+    "description": "The strongest leggings, made of netherite, providing high durability.",
+    "buy_price": 100,
+    "sell_price": 70,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8d/Netherite_Leggings_JE3_BE2.png"
+  },
+  {
+    "name": "Enchanted Leather Pants",
+    "description": "Magical leather pants with enhanced properties.",
+    "buy_price": 12,
+    "sell_price": 6,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/91/Enchanted_Leather_Pants_%28item%29.gif"
+  },
+  {
+    "name": "Enchanted Chainmail Leggings",
+    "description": "Magical chainmail leggings with enhanced properties.",
+    "buy_price": 20,
+    "sell_price": 12,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e1/Enchanted_Chainmail_Leggings_%28item%29.gif"
+  },
+  {
+    "name": "Enchanted Iron Leggings",
+    "description": "Magical iron leggings with enhanced properties.",
+    "buy_price": 50,
+    "sell_price": 30,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/ce/Enchanted_Iron_Leggings_%28item%29.gif"
+  },
+  {
+    "name": "Enchanted Golden Leggings",
+    "description": "Magical golden leggings with enhanced properties.",
+    "buy_price": 40,
+    "sell_price": 20,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8d/Enchanted_Golden_Leggings_%28item%29.gif"
+  },
+  {
+    "name": "Enchanted Diamond Leggings",
+    "description": "Magical diamond leggings with enhanced properties.",
+    "buy_price": 90,
+    "sell_price": 60,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/29/Enchanted_Diamond_Leggings_%28item%29.gif"
+  },
+  {
+    "name": "Enchanted Netherite Leggings",
+    "description": "Magical netherite leggings with enhanced properties.",
+    "buy_price": 120,
+    "sell_price": 85,
+    "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b6/Enchanted_Netherite_Leggings_%28item%29.gif"
+  }
+]
+

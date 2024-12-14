@@ -1,0 +1,254 @@
+[
+    {
+      "name": "Wooden Pickaxe",
+      "description": "A basic pickaxe made of wood, suitable for mining stone and coal.",
+      "buy_price": 5,
+      "sell_price": 2,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d2/Wooden_Pickaxe_JE3_BE3.png"
+    },
+    {
+      "name": "Stone Pickaxe",
+      "description": "A stronger pickaxe made of stone, used for mining iron ore and other blocks.",
+      "buy_price": 10,
+      "sell_price": 5,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c4/Stone_Pickaxe_JE2_BE2.png"
+    },
+    {
+      "name": "Iron Pickaxe",
+      "description": "A durable pickaxe made of iron, capable of mining diamonds and gold.",
+      "buy_price": 25,
+      "sell_price": 15,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d1/Iron_Pickaxe_JE3_BE2.png"
+    },
+    {
+      "name": "Golden Pickaxe",
+      "description": "A quick but fragile pickaxe made of gold, useful for certain ores.",
+      "buy_price": 20,
+      "sell_price": 8,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a6/Golden_Pickaxe_JE4_BE3.png"
+    },
+    {
+      "name": "Diamond Pickaxe",
+      "description": "A powerful pickaxe made of diamond, efficient for mining all ores.",
+      "buy_price": 50,
+      "sell_price": 30,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e7/Diamond_Pickaxe_JE3_BE3.png"
+    },
+    {
+      "name": "Netherite Pickaxe",
+      "description": "The strongest pickaxe, made of netherite, highly durable and efficient.",
+      "buy_price": 75,
+      "sell_price": 50,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d4/Netherite_Pickaxe_JE3.png"
+    },
+    {
+      "name": "Enchanted Wooden Pickaxe",
+      "description": "A magical wooden pickaxe with enhanced properties.",
+      "buy_price": 8,
+      "sell_price": 3,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/64/Enchanted_Wooden_Pickaxe.gif"
+    },
+    {
+      "name": "Enchanted Stone Pickaxe",
+      "description": "A magical stone pickaxe with enhanced properties.",
+      "buy_price": 15,
+      "sell_price": 8,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/62/Enchanted_Stone_Pickaxe.gif"
+    },
+    {
+      "name": "Enchanted Iron Pickaxe",
+      "description": "A magical iron pickaxe with enhanced properties.",
+      "buy_price": 40,
+      "sell_price": 25,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fd/Enchanted_Iron_Pickaxe.gif"
+    },
+    {
+      "name": "Enchanted Golden Pickaxe",
+      "description": "A magical golden pickaxe with enhanced properties.",
+      "buy_price": 35,
+      "sell_price": 12,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dd/Enchanted_Golden_Pickaxe.gif"
+    },
+    {
+      "name": "Enchanted Diamond Pickaxe",
+      "description": "A magical diamond pickaxe with enhanced properties.",
+      "buy_price": 70,
+      "sell_price": 40,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/13/Enchanted_Diamond_Pickaxe.gif"
+    },
+    {
+      "name": "Enchanted Netherite Pickaxe",
+      "description": "A magical netherite pickaxe with enhanced properties.",
+      "buy_price": 100,
+      "sell_price": 60,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/68/Enchanted_Netherite_Pickaxe.gif"
+    },
+    {
+      "name": "Wooden Axe",
+      "description": "A basic axe made of wood, useful for cutting trees.",
+      "buy_price": 5,
+      "sell_price": 2,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/56/Wooden_Axe_JE2_BE2.png"
+    },
+    {
+      "name": "Stone Axe",
+      "description": "A stronger axe made of stone, used for cutting wood faster.",
+      "buy_price": 10,
+      "sell_price": 5,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/02/Stone_Axe_JE2_BE2.png"
+    },
+    {
+      "name": "Iron Axe",
+      "description": "A durable axe made of iron, effective for cutting wood and combat.",
+      "buy_price": 25,
+      "sell_price": 15,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5e/Iron_Axe_JE5_BE2.png"
+    },
+    {
+      "name": "Golden Axe",
+      "description": "A fast but fragile axe made of gold.",
+      "buy_price": 20,
+      "sell_price": 8,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e2/Golden_Axe_JE3_BE2.png"
+    },
+    {
+      "name": "Diamond Axe",
+      "description": "A powerful axe made of diamond, effective in combat and for cutting wood.",
+      "buy_price": 50,
+      "sell_price": 30,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/40/Diamond_Axe_JE3_BE3.png"
+    },
+    {
+      "name": "Netherite Axe",
+      "description": "The strongest axe, made of netherite, highly durable and powerful.",
+      "buy_price": 75,
+      "sell_price": 50,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/df/Netherite_Axe_JE2.png"
+    },
+    {
+      "name": "Enchanted Wooden Axe",
+      "description": "A magical wooden axe with enhanced properties.",
+      "buy_price": 8,
+      "sell_price": 3,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e0/Enchanted_Wooden_Axe.gif"
+    },
+    {
+      "name": "Enchanted Stone Axe",
+      "description": "A magical stone axe with enhanced properties.",
+      "buy_price": 15,
+      "sell_price": 8,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d0/Enchanted_Stone_Axe.gif"
+    },
+    {
+      "name": "Enchanted Iron Axe",
+      "description": "A magical iron axe with enhanced properties.",
+      "buy_price": 40,
+      "sell_price": 25,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/bf/Enchanted_Iron_Axe.gif"
+    },
+    {
+      "name": "Enchanted Golden Axe",
+      "description": "A magical golden axe with enhanced properties.",
+      "buy_price": 35,
+      "sell_price": 12,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d4/Enchanted_Golden_Axe.gif"
+    },
+    {
+      "name": "Enchanted Diamond Axe",
+      "description": "A magical diamond axe with enhanced properties.",
+      "buy_price": 70,
+      "sell_price": 40,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3c/Enchanted_Diamond_Axe.gif"
+    },
+    {
+      "name": "Enchanted Netherite Axe",
+      "description": "A magical netherite axe with enhanced properties.",
+      "buy_price": 100,
+      "sell_price": 60,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4c/Enchanted_Netherite_Axe.gif"
+    },
+    {
+      "name": "Wooden Shovel",
+      "description": "A basic shovel made of wood, suitable for digging.",
+      "buy_price": 5,
+      "sell_price": 2,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/26/Wooden_Shovel_JE2_BE2.png"
+    },
+    {
+      "name": "Stone Shovel",
+      "description": "A stronger shovel made of stone, useful for digging dirt and sand.",
+      "buy_price": 10,
+      "sell_price": 5,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6c/Stone_Shovel_JE2_BE2.png"
+    },
+    {
+      "name": "Iron Shovel",
+      "description": "A durable shovel made of iron, effective for digging through tougher materials.",
+      "buy_price": 25,
+      "sell_price": 15,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/aa/Iron_Shovel_JE3_BE2.png"
+    },
+    {
+      "name": "Golden Shovel",
+      "description": "A fast but fragile shovel made of gold, used for digging.",
+      "buy_price": 20,
+      "sell_price": 8,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c9/Golden_Shovel_JE3_BE2.png"
+    },
+    {
+      "name": "Diamond Shovel",
+      "description": "A powerful shovel made of diamond, ideal for digging in tough terrains.",
+      "buy_price": 50,
+      "sell_price": 30,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ec/Diamond_Shovel_JE3_BE3.png"
+    },
+    {
+      "name": "Netherite Shovel",
+      "description": "The strongest shovel, made of netherite, highly durable and efficient.",
+      "buy_price": 75,
+      "sell_price": 50,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a1/Netherite_Shovel_JE2_BE1.png"
+    },
+    {
+      "name": "Enchanted Wooden Shovel",
+      "description": "A magical wooden shovel with enhanced properties.",
+      "buy_price": 8,
+      "sell_price": 3,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0d/Enchanted_Wooden_Shovel.gif"
+    },
+    {
+      "name": "Enchanted Stone Shovel",
+      "description": "A magical stone shovel with enhanced properties.",
+      "buy_price": 15,
+      "sell_price": 8,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8a/Enchanted_Stone_Shovel.gif"
+    },
+    {
+      "name": "Enchanted Iron Shovel",
+      "description": "A magical iron shovel with enhanced properties.",
+      "buy_price": 40,
+      "sell_price": 25,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/af/Enchanted_Iron_Shovel.gif"
+    },
+    {
+      "name": "Enchanted Golden Shovel",
+      "description": "A magical golden shovel with enhanced properties.",
+      "buy_price": 35,
+      "sell_price": 12,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e4/Enchanted_Golden_Shovel.gif"
+    },
+    {
+      "name": "Enchanted Diamond Shovel",
+      "description": "A magical diamond shovel with enhanced properties.",
+      "buy_price": 70,
+      "sell_price": 40,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c1/Enchanted_Diamond_Shovel.gif"
+    },
+    {
+      "name": "Enchanted Netherite Shovel",
+      "description": "A magical netherite shovel with enhanced properties.",
+      "buy_price": 100,
+      "sell_price": 60,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/11/Enchanted_Netherite_Shovel.gif"
+    }
+]

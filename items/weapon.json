@@ -1,9 +1,191 @@
 [
-  {
-    "name": "Cooked Porkchop",
-    "description": "A cooked piece of pork that restores hunger.",
-    "buy_price": 7,
-    "sell_price": 3,
-    "image_path": "/b/be/CookedPorkchopNew.png"
-  }
+    {
+      "name": "Wooden Sword",
+      "description": "A basic sword made of wood.",
+      "buy_price": 5,
+      "sell_price": 2,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d5/Wooden_Sword_JE2_BE2.png"
+    },
+    {
+      "name": "Stone Sword",
+      "description": "A sword made of stone, stronger than a wooden sword.",
+      "buy_price": 10,
+      "sell_price": 5,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b1/Stone_Sword_JE2_BE2.png"
+    },
+    {
+      "name": "Iron Sword",
+      "description": "A sword made of iron, durable and effective.",
+      "buy_price": 20,
+      "sell_price": 10,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8e/Iron_Sword_JE2_BE2.png"
+    },
+    {
+      "name": "Golden Sword",
+      "description": "A sword made of gold, fast but fragile.",
+      "buy_price": 25,
+      "sell_price": 12,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/db/Golden_Sword_JE3_BE2.png"
+    },
+    {
+      "name": "Diamond Sword",
+      "description": "A strong sword made of diamond, providing great durability.",
+      "buy_price": 50,
+      "sell_price": 30,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/Diamond_Sword_JE3_BE3.png"
+    },
+    {
+      "name": "Netherite Sword",
+      "description": "A sword made of netherite, the strongest material.",
+      "buy_price": 75,
+      "sell_price": 50,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0f/Netherite_Sword_JE2_BE2.png"
+    },
+    {
+      "name": "Enchanted Wooden Sword",
+      "description": "A magical wooden sword with enhanced properties.",
+      "buy_price": 7,
+      "sell_price": 3,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c1/Enchanted_Wooden_Sword.gif"
+    },
+    {
+      "name": "Enchanted Stone Sword",
+      "description": "A magical stone sword with enhanced properties.",
+      "buy_price": 12,
+      "sell_price": 6,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ed/Enchanted_Stone_Sword.gif"
+    },
+    {
+      "name": "Enchanted Iron Sword",
+      "description": "A magical iron sword with enhanced properties.",
+      "buy_price": 25,
+      "sell_price": 15,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/de/Enchanted_Iron_Sword.gif"
+    },
+    {
+      "name": "Enchanted Golden Sword",
+      "description": "A magical golden sword with enhanced properties.",
+      "buy_price": 30,
+      "sell_price": 18,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ef/Enchanted_Golden_Sword.gif"
+    },
+    {
+      "name": "Enchanted Diamond Sword",
+      "description": "A magical diamond sword with enhanced properties.",
+      "buy_price": 60,
+      "sell_price": 40,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d1/Enchanted_Diamond_Sword.gif"
+    },
+    {
+      "name": "Enchanted Netherite Sword",
+      "description": "A magical netherite sword with enhanced properties.",
+      "buy_price": 100,
+      "sell_price": 75,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/74/Enchanted_Netherite_Sword.gif"
+    },
+    {
+      "name": "Bow",
+      "description": "A bow used to shoot arrows.",
+      "buy_price": 15,
+      "sell_price": 8,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/99/Bow_JE2_BE1.png"
+    },
+    {
+      "name": "Enchanted Bow",
+      "description": "A magical bow with enhanced properties.",
+      "buy_price": 20,
+      "sell_price": 12,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4c/Enchanted_Bow.gif"
+    },
+    {
+      "name": "Crossbow",
+      "description": "A crossbow used to shoot arrows with precision.",
+      "buy_price": 30,
+      "sell_price": 20,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/79/Crossbow.png"
+    },
+    {
+      "name": "Enchanted Crossbow",
+      "description": "A magical crossbow with enhanced properties.",
+      "buy_price": 40,
+      "sell_price": 25,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/35/Enchanted_Crossbow.gif"
+    },
+    {
+      "name": "Trident",
+      "description": "A trident used for close combat and ranged attacks.",
+      "buy_price": 50,
+      "sell_price": 35,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/ba/Trident_%28item%29.png"
+    },
+    {
+      "name": "Fire Charge",
+      "description": "A throwable item that creates fire upon impact.",
+      "buy_price": 10,
+      "sell_price": 5,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3b/Fire_Charge_JE2_BE2.png"
+    },
+    {
+      "name": "Splash Water Bottle",
+      "description": "A splash potion of water, used to extinguish fires.",
+      "buy_price": 5,
+      "sell_price": 3,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/18/Splash_Water_Bottle_JE2_BE2.png"
+    },
+    {
+      "name": "Uncraftable Splash Potion",
+      "description": "A splash potion that cannot be crafted.",
+      "buy_price": 8,
+      "sell_price": 4,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/1b/Uncraftable_Splash_Potion_JE2.png"
+    },
+    {
+      "name": "Snowball",
+      "description": "A throwable snowball, used for fun or combat.",
+      "buy_price": 2,
+      "sell_price": 1,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2a/Snowball_JE3_BE3.png"
+    },
+    {
+      "name": "Ender Pearl",
+      "description": "A throwable item used to teleport.",
+      "buy_price": 10,
+      "sell_price": 6,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f6/Ender_Pearl_JE3_BE2.png"
+    },
+    {
+      "name": "Flint and Steel",
+      "description": "A tool used to light fires.",
+      "buy_price": 5,
+      "sell_price": 3,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/94/Flint_and_Steel_JE4_BE2.png"
+    },
+    {
+      "name": "Lava Bucket",
+      "description": "A bucket filled with lava, can be used for crafting or combat.",
+      "buy_price": 15,
+      "sell_price": 10,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/74/Lava_Bucket_JE2_BE2.png"
+    },
+    {
+      "name": "TNT",
+      "description": "A block of TNT, can be used for explosive crafting or combat.",
+      "buy_price": 20,
+      "sell_price": 12,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a2/TNT_JE3_BE2.png"
+    },
+    {
+      "name": "Mace",
+      "description": "A weapon with a heavy head designed for crushing.",
+      "buy_price": 40,
+      "sell_price": 25,
+      "image_path": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/63/Mace.png"
+    },
+    {
+      "name": "AK-47 Gun",
+      "description": "A powerful firearm, used for combat.",
+      "buy_price": 150,
+      "sell_price": 100,
+      "image_path": "https://opengameart.org/sites/default/files/ak-47-gun-png.png"
+    }
 ]

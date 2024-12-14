@@ -112,37 +112,37 @@ header > div:last-child > a > div{
 
 
 #categories > div:first-child .category.pixel-corners:first-child > div  {
-    background-image: url("../../images/items/apple.png");
+    background-image: url("../../images/apple.png");
     background-position-y: 1px;
     background-size: 4rem;
 }
 
 #categories > div:first-child .category.pixel-corners:nth-child(2) > div  {
-    background-image: url("../../images/items/tools.png");
+    background-image: url("../../images/tools.png");
     background-position-y: 0.4rem;
     background-size: 3.5rem;
 }
 
 #categories > div:first-child .category.pixel-corners:nth-child(3) > div  {
-    background-image: url("../../images/items/armor.png");
+    background-image: url("../../images/armor.png");
     background-position-y: 0.2rem;
     background-size: 4rem;
 }
 
 #categories > div:first-child .category.pixel-corners:nth-child(4) > div  {
-    background-image: url("../../images/items/weapons.png");
+    background-image: url("../../images/weapons.png");
     background-position-y: 0.2rem;
     background-size: 4rem;
 }
 
 #categories > div:last-child .category.pixel-corners:first-child > div  {
-    background-image: url("../../images/items/bookshelf.webp");
+    background-image: url("../../images/bookshelf.webp");
     background-position-y: 0.2rem;
     background-size: 4rem;
 }
 
 #categories > div:last-child .category.pixel-corners:last-child > div {
-    background-image: url("../../images/items/Compass_.webp");
+    background-image: url("../../images/Compass_.webp");
     background-position-y: 0.2rem;
     background-size: 4rem;
 }
@@ -151,6 +151,7 @@ header > div:last-child > a > div{
     width: 80%;
     height: 45rem;
     position: relative;
+    translate: 0 -1rem;
 }
 
 #shop-outer{
@@ -271,6 +272,45 @@ header > div:last-child > a > div{
 .page{
     width: 2rem;
     height: 2rem;
+}
+
+.info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    opacity: 0;
+}
+
+.itemName{
+    text-align: center;
+    font-size: 0.8rem;
+    translate: 0 0.5rem;
+}
+
+.info-line{
+    z-index: 1;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: nowrap;
+}
+
+.info:hover {
+    opacity: 1;
+}
+
+.emoji{
+    height: 1.5rem;
+    z-index: 1;
+}
+
+.tablet {
+    width: 100%;
+    position: absolute;
 }
 
 
