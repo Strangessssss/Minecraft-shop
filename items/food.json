@@ -1,0 +1,149 @@
+[
+  {
+    "name": "Cooked Porkchop",
+    "description": "A cooked piece of pork that restores hunger.",
+    "buy_price": 7,
+    "sell_price": 3,
+    "image_path": "/b/be/CookedPorkchopNew.png"
+  },
+  {
+    "name": "Golden Apple",
+    "description": "An apple coated with gold, offering enhanced regeneration.",
+    "buy_price": 40,
+    "sell_price": 30,
+    "image_path": "/6/69/GoldenAppleNew.png"
+  },
+  {
+    "name": "Rotten Flesh",
+    "description": "A disgusting food item often dropped by zombies.",
+    "buy_price": 2,
+    "sell_price": 1,
+    "image_path": "/b/b4/RottenFleshNew.png"
+  },
+  {
+    "name": "Pufferfish",
+    "description": "A dangerous fish that can be used to make potions of Water Breathing or as food.",
+    "buy_price": 8,
+    "sell_price": 5,
+    "image_path": "/8/8a/Pufferfish%28Item%29.png"
+  },
+  {
+    "name": "Pufferfish (Item)",
+    "description": "An item version of the pufferfish that can be eaten or used in crafting.",
+    "buy_price": 8,
+    "sell_price": 5,
+    "image_path": "/e/e7/PufferfishItem.png"
+  },
+  {
+    "name": "Raw Rabbit",
+    "description": "Raw meat from a rabbit, can be cooked for better healing.",
+    "buy_price": 6,
+    "sell_price": 3,
+    "image_path": "/a/ae/RawRabbitOld.png"
+  },
+  {
+    "name": "Rabbit Stew",
+    "description": "A hearty stew made with rabbit, carrots, and other ingredients.",
+    "buy_price": 15,
+    "sell_price": 9,
+    "image_path": "/d/dd/RabbitStewNew.png"
+  },
+  {
+    "name": "Cooked Rabbit",
+    "description": "Cooked rabbit that restores hunger and provides some saturation.",
+    "buy_price": 10,
+    "sell_price": 6,
+    "image_path": "/0/0d/CookedRabbitOld.png"
+  },
+  {
+    "name": "Raw Mutton",
+    "description": "Uncooked mutton from sheep, can be cooked for better food value.",
+    "buy_price": 5,
+    "sell_price": 2,
+    "image_path": "/0/09/Raw_Mutton_old.png"
+  },
+  {
+    "name": "Cooked Mutton",
+    "description": "Cooked mutton from sheep, restores more hunger than raw.",
+    "buy_price": 10,
+    "sell_price": 5,
+    "image_path": "/9/93/CookedMuttonOld.png"
+  },
+  {
+    "name": "Raw Rabbit (Updated)",
+    "description": "An updated version of raw rabbit, used in cooking recipes.",
+    "buy_price": 7,
+    "sell_price": 4,
+    "image_path": "/e/e6/Raw_Rabbit.png"
+  },
+  {
+    "name": "Cooked Rabbit (Updated)",
+    "description": "An updated version of cooked rabbit, commonly used for food.",
+    "buy_price": 12,
+    "sell_price": 7,
+    "image_path": "/c/c6/Cooked_Rabbit.png"
+  },
+  {
+    "name": "Raw Mutton (Updated)",
+    "description": "An updated version of raw mutton, can be cooked to restore hunger.",
+    "buy_price": 6,
+    "sell_price": 3,
+    "image_path": "/e/e4/Raw_Mutton_new.png"
+  },
+  {
+    "name": "Cooked Mutton (Updated)",
+    "description": "An updated version of cooked mutton, restores hunger more effectively.",
+    "buy_price": 12,
+    "sell_price": 7,
+    "image_path": "/1/19/Cooked_Mutton_new.png"
+  },
+  {
+    "name": "Beetroot Soup",
+    "description": "A bowl of beetroot soup, a quick snack that restores a little hunger.",
+    "buy_price": 5,
+    "sell_price": 3,
+    "image_path": "/8/8a/BeetrootSoupNew.png"
+  },
+  {
+    "name": "Beetroot",
+    "description": "Raw beetroot, can be eaten directly or used in crafting beetroot soup.",
+    "buy_price": 2,
+    "sell_price": 1,
+    "image_path": "/8/8b/Beetroot_1.14.png"
+  },
+  {
+    "name": "Raw Cod",
+    "description": "Raw fish from cod, can be cooked to restore hunger.",
+    "buy_price": 4,
+    "sell_price": 2,
+    "image_path": "/e/eb/Raw_Cod.png"
+  },
+  {
+    "name": "Raw Salmon",
+    "description": "Raw salmon, can be eaten or cooked for a better food source.",
+    "buy_price": 6,
+    "sell_price": 3,
+    "image_path": "/8/8f/Minecraft_Raw_Salmon.png"
+  },
+  {
+    "name": "Tropical Fish",
+    "description": "A colorful tropical fish, can be used in crafting or eaten.",
+    "buy_price": 7,
+    "sell_price": 4,
+    "image_path": "/3/31/TropicalFishNew.png"
+  },
+  {
+    "name": "Cooked Cod",
+    "description": "Cooked cod, restores hunger and saturation.",
+    "buy_price": 9,
+    "sell_price": 5,
+    "image_path": "/d/d7/CookedCodNew.png"
+  },
+  {
+    "name": "Cooked Salmon",
+    "description": "Cooked salmon, one of the best fish to restore hunger.",
+    "buy_price": 12,
+    "sell_price": 6,
+    "image_path": "/5/57/Minecraft_Cooked_Salmon.png"
+  }
+]

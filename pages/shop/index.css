@@ -17,17 +17,32 @@ body{
     background-image: url("../../images/dirt.jpeg");
     background-size: 10rem;
     overflow: hidden;
+    flex-direction: column;
 }
 
-#login{
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
     position: absolute;
-    top: 0;
-    right: 2rem;
+    top: 1rem;
 }
 
-#login > div{
-    background-image: url("../../images/user.png");
-    background-position-y: -2px;
+header > div{
+    width: 6rem;
+    height: 5.5rem;
+}
+
+header > div:first-child > a > div{
+    background-image: url("../../images/house.png");
+    background-position-y: 11px;
+    background-size: 4rem;
+}
+
+header > div:last-child > a > div{
+    background-image: url("../../images/icons.png");
+    background-position-y: -5px;
     background-size: 5rem;
 }
 
@@ -45,7 +60,6 @@ body{
 #pagination-container > div{
     font-family: "Minecraft", cursive;
     color: white;
-    background-color: #6a6a6a;
     width: 6%;
     height: 50%;
     align-items: center;
@@ -135,7 +149,7 @@ body{
 
 #shop-altogether{
     width: 80%;
-    height: 40rem;
+    height: 45rem;
     position: relative;
 }
 
@@ -146,9 +160,10 @@ body{
     height: 100%;
     margin-top: 4rem;
     border-color: black;
-    border-width: 11px;
     border-left-width: 5px;
     border-right-width: 5px;
+    border-bottom-width: 10px;
+    border-top-width: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,12 +223,10 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    height: 80%;
+    height: 40rem;
     grid-column-gap: 0;
     grid-row-gap: 0;
-    width: 80%;
-    gap: 0;
-    padding:0;
+    width: 90%;
 }
 
 
@@ -229,23 +242,39 @@ body{
     border-bottom-color: #f4f4f4;
 }
 
+#shelf > div{
+    background-size: 7rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pagination-container > button{
+    height: 2rem;
+}
+
 #pagination-container{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 1rem;
     gap: 5rem;
+    margin-bottom: 2rem;
 }
 
-#pagination-container > button{
-    width: 3rem;
-    height: 3rem;
+#pagination-numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.page{
+    width: 2rem;
+    height: 2rem;
 }
 
 
 @media screen and (max-width: 1000px) {
-
     .cell{
         width: 80px;
         height: 80px;
@@ -274,7 +303,6 @@ body{
         left: -5.5rem;
     }
 
-
     #search-area > label > input{
         margin-right: 1rem;
         width: 80%;
@@ -296,5 +324,4 @@ body{
         height: 95%;
         width: 105%;
     }
-
 }

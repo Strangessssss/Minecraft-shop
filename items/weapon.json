@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Cooked Porkchop",
+    "description": "A cooked piece of pork that restores hunger.",
+    "buy_price": 7,
+    "sell_price": 3,
+    "image_path": "/b/be/CookedPorkchopNew.png"
+  }
+]
